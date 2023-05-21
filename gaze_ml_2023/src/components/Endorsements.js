@@ -1,5 +1,5 @@
 import React from "react";
-import MICCAI from "./MICCAIlogo.jpg";
+import MICCAI from "../MICCAIlogo.jpg";
 
 function Endorsements() {
   return (
@@ -9,7 +9,7 @@ function Endorsements() {
       <p> We are a MICCAI endorsed event: </p>
 
       <div>
-        <img src={MICCAI} width="200px" />
+        <img src={MICCAI} width="200px" alt="Endorsement" />
       </div>
       <p> Eye gaze logo designed by Michael Chung </p>
     </div>

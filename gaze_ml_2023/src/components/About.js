@@ -1,11 +1,11 @@
 import React from "react";
-import eye from "./eye.png";
+import eye from "../eye.png";
 
 function About() {
   return (
     <div>
       <div>
-        <img src={eye} width="200px" />
+        <img src={eye} width="200px" alt="Eye gaze" />
       </div>
       <h4>About</h4>
       <div align="left">
@@ -44,6 +44,13 @@ function About() {
             bring together an active research community to collectively drive
             progress in defining and addressing core problems in gaze-assisted
             machine learning.
+          </p>
+          <p>
+            For more information, you can explore the details of the 2022 Gaze
+            Meet ML workshop at the provided link:{" "}
+            <a href="https://gaze-meets-ml.github.io/gaze_ml_2022/">
+              2022 Gaze Meet ML Workshop
+            </a>
           </p>
         </blockquote>
       </div>
