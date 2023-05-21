@@ -1,6 +1,15 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Steps to run the application
+change the directory to the gaze_ml_2023
+cd gaze_ml_2023
+
+## Download node on your computer by following the link below
+https://nodejs.org
+
+## `npm install`
+npm install will help in downloading all the dependencies or the project.
 
 ## Available Scripts
 
