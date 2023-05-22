@@ -8,6 +8,10 @@ function Homepage() {
       <div>
         <About />
         <Endorsements />
+        <hr style={{ margin: "20px 0", border: "none", borderTop: "1px solid #ccc" }} />
+        <div style={{ textAlign: "center", fontFamily: "cursive", marginBottom: "20px" }}>
+          Bridging human and machine attention
+        </div>
       </div>
     </Fragment>
   );

@@ -10,6 +10,8 @@ function Header({ brand, navigation, position }) {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          borderBottom: "1px solid #ccc", // Add a line after brand name and navigation
+          paddingBottom: "10px", // Adjust padding as needed
         }}
       >
         <Link
