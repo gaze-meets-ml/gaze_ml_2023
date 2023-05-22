@@ -13,21 +13,22 @@ import Blog from "./components/Blog";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/gaze_ml_2023">
       <Fragment>
         <div className="App">
           <div className="page-container">
             <AppHeader />
             <br />
             <br />
+
             <Routes>
               <Route path="/about" element={<About />} />
               <Route path="/presentation" element={<Presentation />} />
-              <Route path="/gaze_ml_2023/speakers" element={<Speakers />} />
+              <Route path="/speakers" element={<Speakers />} />
               <Route path="/sponsors" element={<Sponsors />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/faqs" element={<FAQs />} />
-              <Route path="/gaze_ml_2023" element={<Homepage />} />
+              <Route path="/" element={<Homepage />} />
               <Route path="/endorsement" element={<Endorsements />} />
             </Routes>
           </div>

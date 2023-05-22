@@ -13,7 +13,7 @@ function Header({ brand, navigation, position }) {
         }}
       >
         <Link
-          to="/home"
+          to="/"
           style={{
             fontWeight: "bold",
             fontSize: "24px",
