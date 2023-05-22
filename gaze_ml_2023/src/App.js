@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import { AppHeader } from "./components/AppHeader";
@@ -22,28 +22,28 @@ function App() {
           <br />
 
           <Switch>
-            <Route exact path="/about">
+            <Route  path="/about">
               <About />
             </Route>
-            <Route exact path="/presentation">
+            <Route  path="/presentation">
               <Presentation />
             </Route>
-            <Route exact path="/speakers">
+            <Route  path="/speakers">
               <Speakers />
             </Route>
-            <Route exact path="/sponsors">
+            <Route  path="/sponsors">
               <Sponsors />
             </Route>
-            <Route exact path="/blog">
+            <Route  path="/blog">
               <Blog />
             </Route>
-            <Route exact path="/faqs">
+            <Route  path="/faqs">
               <FAQs />
             </Route>
-            <Route exact path="/">
+            <Route  path="/">
               <Homepage />
             </Route>
-            <Route exact path="/endorsement">
+            <Route  path="/endorsement">
               <Endorsements />
             </Route>
           </Switch>
