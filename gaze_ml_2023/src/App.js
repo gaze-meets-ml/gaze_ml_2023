@@ -21,14 +21,14 @@ function App() {
             <br />
             <br />
             <Routes>
-              <Route exact path="/about" element={<About />} />
-              <Route exact path="/presentation" element={<Presentation />} />
-              <Route exact path="/speakers" element={<Speakers />} />
-              <Route exact path="/sponsors" element={<Sponsors />} />
-              <Route exact path="/blog" element={<Blog />} />
-              <Route exact path="/faqs" element={<FAQs />} />
-              <Route exact path="/home" element={<Homepage />} />
-              <Route exact path="/endorsement" element={<Endorsements />} />
+              <Route  path="/about" element={<About />} />
+              <Route  path="/presentation" element={<Presentation />} />
+              <Route  path="/speakers" element={<Speakers />} />
+              <Route  path="/sponsors" element={<Sponsors />} />
+              <Route  path="/blog" element={<Blog />} />
+              <Route  path="/faqs" element={<FAQs />} />
+              <Route  path="/" element={<Homepage />} />
+              <Route  path="/endorsement" element={<Endorsements />} />
             </Routes>
           </div>
         </div>
