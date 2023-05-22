@@ -49,12 +49,12 @@ export function AppHeader() {
         {
           id: "about",
           text: "About",
-          href: "/about",
+          href: "/gaze_ml_2023/about",
         },
         {
           id: "presentation",
           text: "Presentation",
-          href: "/presentation",
+          href: "/gaze_ml_2023/presentation",
         },
         {
           id: "Speakers",
@@ -64,17 +64,17 @@ export function AppHeader() {
         {
           id: "Sponsors",
           text: "Sponsors",
-          href: "/sponsors",
+          href: "/gaze_ml_2023/sponsors",
         },
         {
           id: "Blog",
           text: "Blog",
-          href: "/blog",
+          href: "/gaze_ml_2023/blog",
         },
         {
           id: "FAQs",
           text: "FAQs",
-          href: "/faqs",
+          href: "/gaze_ml_2023/faqs",
         },
       ],
       selectedId:
