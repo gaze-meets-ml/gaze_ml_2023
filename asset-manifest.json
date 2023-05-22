@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/gaze_ml_2023/static/css/main.cede8f91.css",
-    "main.js": "/gaze_ml_2023/static/js/main.3c0f803d.js",
+    "main.js": "/gaze_ml_2023/static/js/main.854e66d1.js",
     "static/js/787.886c417e.chunk.js": "/gaze_ml_2023/static/js/787.886c417e.chunk.js",
     "static/media/eye.png": "/gaze_ml_2023/static/media/eye.ef6bed43101f8391fa97.png",
     "static/media/MICCAIlogo.jpg": "/gaze_ml_2023/static/media/MICCAIlogo.fc88eacd7db354198f2b.jpg",
     "index.html": "/gaze_ml_2023/index.html",
     "main.cede8f91.css.map": "/gaze_ml_2023/static/css/main.cede8f91.css.map",
-    "main.3c0f803d.js.map": "/gaze_ml_2023/static/js/main.3c0f803d.js.map",
+    "main.854e66d1.js.map": "/gaze_ml_2023/static/js/main.854e66d1.js.map",
     "787.886c417e.chunk.js.map": "/gaze_ml_2023/static/js/787.886c417e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cede8f91.css",
-    "static/js/main.3c0f803d.js"
+    "static/js/main.854e66d1.js"
   ]
 }
