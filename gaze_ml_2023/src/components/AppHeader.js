@@ -59,7 +59,7 @@ export function AppHeader() {
         {
           id: "Speakers",
           text: "Speakers",
-          href: "/speakers",
+          href: "/gaze_ml_2023/speakers",
         },
         {
           id: "Sponsors",
